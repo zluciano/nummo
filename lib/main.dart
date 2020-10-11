@@ -5,8 +5,20 @@ import 'package:nummo/components/signUpPage.dart';
 import 'package:nummo/components/signUpInvestorPage.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:nummo/components/home.dart';
+import 'package:nummo/components/investorPage.dart';
+import 'package:nummo/components/notInvestorPage.dart';
 
-bool firstUse = true;
+bool logged = false;
+
+var user = {
+  'username' : 'Luciano',
+  'email' : 'zluciano.t19@gmail.com',
+  'investor' : true,
+  'balance' : 3350,
+  'investments' : 31,
+  'next_pay' : 850.47,
+
+};
 
 void main() {
   runApp(MyApp());
@@ -24,13 +36,15 @@ class MyAppState extends State<MyApp> {
     '/signUpPage': (BuildContext context) => new SignUpPage(),
     '/signUpInvestorPage': (BuildContext context) => new SignUpInvestorPage(),
     '/home': (BuildContext context) => new Home(),
+    '/investorPage': (BuildContext context) => new InvestorPage(),
+    '/notInvestorPage': (BuildContext context) => new NotInvestorPage(),
   };
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: firstUse ? '/' : '/',
+      initialRoute: logged ? '/home' : '/',
       onGenerateRoute: (settings) {
         return PageTransition(
           child: routes[settings.name](context),

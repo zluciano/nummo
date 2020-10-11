@@ -269,12 +269,12 @@ class SignUp extends StatelessWidget{
                     heightScale: heightScale,
                     widthScale: widthScale,
                   ),
-                  FlatButton(
+                  /*FlatButton(
                       color: Colors.white,
                       textColor: Color.fromARGB(0xff, 0x06, 0x4c, 0x6a),
                       onPressed: () => Navigator.pushNamed(context, '/signUpInvestorPage'),
                       child: Text("Quero me cadastrar como investidor", style: TextStyle(fontFamily: "Poiret One"),)
-                  ),
+                  ),*/
                 ],
               ),
             ),
@@ -398,7 +398,7 @@ class SignUpInvestor extends StatelessWidget{
                     ),
                   ),
                   Container(height: 22 * heightScale,),
-                  SignUpButtonSubmit(
+                  SignUpInvestorButtonSubmit(
                     heightScale: heightScale,
                     widthScale: widthScale,
                   ),

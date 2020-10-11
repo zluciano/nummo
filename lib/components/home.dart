@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nummo/util/bottomButtons.dart';
+import 'package:nummo/main.dart';
+import 'package:nummo/util/header.dart';
 
 class Home extends StatefulWidget {
   Home({Key key, this.title}) : super(key: key);
@@ -44,24 +46,9 @@ class _HomeState extends State<Home> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        Container(
-                          height: 62 * heightScale,
-                        ),
-                        Container(
-                          height: 66.31 * heightScale,
-                          width: 64.69 * widthScale,
-                          child: Image.asset("assets/images/app_icon.png"),
-                        ),
-                        Container(
-                          height: 25.69 * heightScale,
-                        ),
-                        Container(
-                          height: 51 * heightScale,
-                          width: 207 * widthScale,
-                          child: Image.asset("assets/images/app_name.png"),
-                        ),
-                        Container(
-                          height: 32 * heightScale,
+                        Header(
+                          heightScale: heightScale,
+                          widthScale: widthScale,
                         ),
                         Container(
                             height: 343 * heightScale,
@@ -117,7 +104,18 @@ class _HomeState extends State<Home> {
                                           Column(
                                             mainAxisAlignment: MainAxisAlignment.center,
                                             children: [
-                                              Image.asset(images[0], height: 87*heightScale, width: 87*widthScale,),
+                                              Stack(
+                                                children: [
+                                                  Image.asset(images[0], height: 87*heightScale, width: 87*widthScale,),
+                                                  FlatButton(
+                                                      height: 87 * heightScale,
+                                                      minWidth: 87 * widthScale,
+                                                      onPressed: () => user['investor'] ? Navigator.pushNamed(context, '/investorPage')
+                                                                                        : Navigator.pushNamed(context, '/notInvestorPage'),
+                                                      child: null
+                                                  )
+                                                ],
+                                              ),
                                               Image.asset(images[2], height: 50*heightScale, width: 80*widthScale,),
                                             ],
                                           ),
@@ -125,7 +123,17 @@ class _HomeState extends State<Home> {
                                           Column(
                                             mainAxisAlignment: MainAxisAlignment.center,
                                             children: [
-                                              Image.asset(images[1], height: 87*heightScale, width: 87*widthScale,),
+                                              Stack(
+                                                children: [
+                                                  Image.asset(images[1], height: 87*heightScale, width: 87*widthScale,),
+                                                  FlatButton(
+                                                      height: 87 * heightScale,
+                                                      minWidth: 87 * widthScale,
+                                                      onPressed: (){print("pressed");},
+                                                      child: null
+                                                  )
+                                                ],
+                                              ),
                                               Image.asset(images[3], height: 50*heightScale, width: 80*widthScale,),
                                             ],
                                           ),
@@ -137,7 +145,17 @@ class _HomeState extends State<Home> {
                                           Column(
                                             mainAxisAlignment: MainAxisAlignment.center,
                                             children: [
-                                              Image.asset(images[4], height: 87*heightScale, width: 87*widthScale,),
+                                              Stack(
+                                                children: [
+                                                  Image.asset(images[4], height: 87*heightScale, width: 87*widthScale,),
+                                                  FlatButton(
+                                                      height: 87 * heightScale,
+                                                      minWidth: 87 * widthScale,
+                                                      onPressed: (){print("pressed");},
+                                                      child: null
+                                                  )
+                                                ],
+                                              ),
                                               Image.asset(images[6], height: 10*heightScale, width: 80*widthScale,),
                                             ],
                                           ),
@@ -145,7 +163,17 @@ class _HomeState extends State<Home> {
                                           Column(
                                             mainAxisAlignment: MainAxisAlignment.center,
                                             children: [
-                                              Image.asset(images[5], height: 87*heightScale, width: 87*widthScale,),
+                                              Stack(
+                                                children: [
+                                                  Image.asset(images[5], height: 87*heightScale, width: 87*widthScale,),
+                                                  FlatButton(
+                                                      height: 87 * heightScale,
+                                                      minWidth: 87 * widthScale,
+                                                      onPressed: (){print("pressed");},
+                                                      child: null
+                                                  )
+                                                ],
+                                              ),
                                               Image.asset(images[7], height: 11*heightScale, width: 80*widthScale,),
                                             ],
                                           ),

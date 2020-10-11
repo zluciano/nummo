@@ -85,7 +85,7 @@ class _HomeState extends State<Home> {
                                       ]
                                   ),
                                   child: Center(
-                                    child: Text("Entre em sua conta", style: TextStyle(color: Colors.white),),
+                                    child: Text("Username", style: TextStyle(color: Colors.white),),
                                   ),
                                 ),
                                 Container(

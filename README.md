@@ -1,8 +1,8 @@
 # nummo
 
-A new way to be funded.
+Fazemos bem ao seu bolso e ao seu negócio.
 
-## Getting Started
+## Sumário
 
 This project is a starting point for a Flutter application.
 

@@ -91,8 +91,8 @@ class _NotInvestorPageState extends State<NotInvestorPage> {
                                         Container(
                                           height: 40 * heightScale,
                                         ),
-                                        Text("Você ainda não possui"),
-                                        Text("cadastro de investidor."),
+                                        Text("Você ainda não cumpre"),
+                                        Text("todos os requisitos."),
                                         Container(
                                           height: 34 * heightScale,
                                         ),

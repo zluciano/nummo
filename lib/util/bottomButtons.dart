@@ -29,7 +29,7 @@ class BottomButtons extends StatelessWidget{
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset("assets/images/settings.png", height: 34 * heightScale, width: 52 * widthScale,),
+              Image.asset("assets/images/version.png", height: 34 * heightScale, width: 52 * widthScale,),
               Image.asset("assets/images/version_text.png", height: 25 * heightScale, width: 40 * widthScale,),
             ],
           ),

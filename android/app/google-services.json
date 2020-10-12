@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "903386733395",
+    "firebase_url": "https://nummo-377b9.firebaseio.com",
+    "project_id": "nummo-377b9",
+    "storage_bucket": "nummo-377b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903386733395:android:7175e7dfc7e6841503dfa6",
+        "android_client_info": {
+          "package_name": "com.nummo.nummo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903386733395-bnrkgjj9fkiq2r1u3k0thov0vvguretc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfr-EAlcMmpZXIZnXvnycfdmaSGHkkVs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903386733395-bnrkgjj9fkiq2r1u3k0thov0vvguretc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

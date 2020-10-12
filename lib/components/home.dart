@@ -20,9 +20,9 @@ class _HomeState extends State<Home> {
     final widthScale = MediaQuery. of(context). size. width / 406;
     final List<String> images = [
       "assets/images/credit.png",
-      "assets/images/loan.png",
+      "assets/images/help.png",
       "assets/images/credit_text.png",
-      "assets/images/loan_text.png",
+      "assets/images/help_text.png",
       "assets/images/account.png",
       "assets/images/exit.png",
       "assets/images/account_text.png",
@@ -72,7 +72,7 @@ class _HomeState extends State<Home> {
                                       ]
                                   ),
                                   child: Center(
-                                    child: Text("Username", style: TextStyle(color: Colors.white),),
+                                    child: Text(user['username'], style: TextStyle(color: Colors.white),),
                                   ),
                                 ),
                                 Container(
@@ -110,8 +110,7 @@ class _HomeState extends State<Home> {
                                                   FlatButton(
                                                       height: 87 * heightScale,
                                                       minWidth: 87 * widthScale,
-                                                      onPressed: () => user['investor'] ? Navigator.pushNamed(context, '/investorPage')
-                                                                                        : Navigator.pushNamed(context, '/notInvestorPage'),
+                                                      onPressed: () => Navigator.pushNamed(context, '/investorPage'),
                                                       child: null
                                                   )
                                                 ],
@@ -134,7 +133,7 @@ class _HomeState extends State<Home> {
                                                   )
                                                 ],
                                               ),
-                                              Image.asset(images[3], height: 50*heightScale, width: 80*widthScale,),
+                                              Image.asset(images[3], height: 50*heightScale, width: 40*widthScale,),
                                             ],
                                           ),
                                         ],
@@ -169,7 +168,7 @@ class _HomeState extends State<Home> {
                                                   FlatButton(
                                                       height: 87 * heightScale,
                                                       minWidth: 87 * widthScale,
-                                                      onPressed: (){print("pressed");},
+                                                      onPressed: () => Navigator.pushNamed(context, '/'),
                                                       child: null
                                                   )
                                                 ],

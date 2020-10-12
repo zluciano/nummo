@@ -13,6 +13,7 @@ class SignUpPage extends StatefulWidget {
 }
 
 class _SignUpPageState extends State<SignUpPage> {
+  var invest = true;
 
   @override
   Widget build(BuildContext context) {
@@ -40,7 +41,62 @@ class _SignUpPageState extends State<SignUpPage> {
                           heightScale: heightScale,
                           widthScale: widthScale,
                         ),
-                        SignUp(
+                        Stack(
+                          children: [
+                            Container(
+                              height: 44 * heightScale,
+                              width: 333 * widthScale,
+                              decoration: BoxDecoration(
+                                  color: Color.fromARGB(0xff, 0xf9, 0xca, 0x24),
+                                  borderRadius: BorderRadius.all(Radius.circular(4 * heightScale)),
+                                  border: Border.all(color: Colors.black)
+                              ),
+                              child: Row(
+                                children: [
+                                  Container(
+                                    alignment: Alignment.center,
+                                    height: 44 * heightScale,
+                                    width: 165 * widthScale,
+                                    child: Text("Investidor", style: TextStyle(color: Colors.black),),
+                                  ),
+                                  Container(
+                                    alignment: Alignment.center,
+                                    height: 44 * heightScale,
+                                    width: 165 * widthScale,
+                                    child: Text("Empresa", style: TextStyle(color: Colors.black),),
+                                  )
+                                ],
+                              ),
+                            ),
+                            Row(
+                              children: [
+                                FlatButton(
+                                  height: 44 * heightScale,
+                                  minWidth: 165 * widthScale,
+                                  onPressed: (){
+                                    setState(() {
+                                      invest = true;
+                                    });
+                                  },
+                                ),
+                                FlatButton(
+                                  height: 44 * heightScale,
+                                  minWidth: 165 * widthScale,
+                                  onPressed: (){
+                                    setState(() {
+                                      invest = false;
+                                    });
+                                  },
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                        invest ? SignUpInvestor(
+                          heightScale: heightScale,
+                          widthScale: widthScale,
+                        )
+                        : SignUp(
                           heightScale: heightScale,
                           widthScale: widthScale,
                         ),

@@ -35,6 +35,10 @@ Você pode saber mais a respeito clicando nos links abaixo:
 
 O desenvolvimento do aplicativo Android fez uso de Flutter e Dart, com interface visual projetada através do Figma.
 
+## Teste
+
+Você pode baixar e testar o app através deste [link](https://drive.google.com/file/d/1uU5pnzH5xEX3HRrkBbHQ0NoS0vev4aYl/view?usp=sharing)
+
 ## Time
 
 - Heitor Sales

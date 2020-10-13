@@ -8,7 +8,6 @@ Aplicativo de Android para Nummo.
 - [Solução](#Solução)
 - [Tecnologia](#Tecnologia)
 - [Testes](#Testes)
-- [Design](#Design)
 - [Time](#Time)
 
 ## Sobre
@@ -35,12 +34,6 @@ Você pode saber mais a respeito clicando nos links abaixo:
 ## Tecnologia
 
 O desenvolvimento do aplicativo Android fez uso de Flutter e Dart, com interface visual projetada através do Figma.
-
-## Testes
-
-## Design
-
-[Design do Figma utilizado](https://www.figma.com/file/fI4h9pmDGKzSI3Odd0dkMn/Wireframes)
 
 ## Time
 

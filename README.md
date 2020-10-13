@@ -9,6 +9,7 @@ Aplicativo de Android para Nummo.
 - [Tecnologia](#Tecnologia)
 - [Testes](#Testes)
 - [Design](#Design)
+- [Time](#Time)
 
 ## Sobre
 
@@ -31,14 +32,6 @@ Você pode saber mais a respeito clicando nos links abaixo:
 - [Site](https://nummo.imfast.io/nummo/index.html)
 - [Github do site](https://github.com/rafaeldrag/nummo)
 
-## Time
-
-- Heitor Sales
-- José Luciano
-- Juliana Vivacqua
-- Maira Manfro
-- Rafael Rodrigues
-
 ## Tecnologia
 
 O desenvolvimento do aplicativo Android fez uso de Flutter e Dart, com interface visual projetada através do Figma.
@@ -48,3 +41,11 @@ O desenvolvimento do aplicativo Android fez uso de Flutter e Dart, com interface
 ## Design
 
 [Nosso Site](https://nummo.imfast.io/nummo/index.html)
+
+## Time
+
+- Heitor Sales
+- José Luciano
+- Juliana Vivacqua
+- Maira Manfro
+- Rafael Rodrigues

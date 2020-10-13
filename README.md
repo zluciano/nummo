@@ -23,11 +23,11 @@ O solicitante do empréstimo usa o sistema através de um cadastro que registra 
 Investidores usam o sistema de forma parecida, realizando um cadastro prévio de investidor. Um investidor seleciona seus investimentos através de uma página padronizada, onde são apresentados os riscos e detalhes de cada solicitação de empréstimo. Após selecionados, o investidor confirma, e, a partir daí, pode administrar seus investimentos e visualizar rendimentos através de seu dashboard pessoal.
 
 Você pode saber mais a respeito clicando nos links abaixo:
-[Vídeo Pitch](https://youtu.be/mJUE4fCOLpM)
-[Slides Pitch](https://drive.google.com/file/d/11FhAWmN-9ml-2gR2oy6VvUKcAIAv5vw2/view?usp=sharing)
-[Vídeo Demo](https://youtu.be/KXUbcEiWlnI)
-[Site](https://nummo.imfast.io/nummo/index.html)
-[Github do site](https://github.com/rafaeldrag/nummo)
+- [Vídeo Pitch](https://youtu.be/mJUE4fCOLpM)
+- [Slides Pitch](https://drive.google.com/file/d/11FhAWmN-9ml-2gR2oy6VvUKcAIAv5vw2/view?usp=sharing)
+- [Vídeo Demo](https://youtu.be/KXUbcEiWlnI)
+- [Site](https://nummo.imfast.io/nummo/index.html)
+- [Github do site](https://github.com/rafaeldrag/nummo)
 
 ## Tecnologia
 

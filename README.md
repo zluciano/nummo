@@ -1,16 +1,50 @@
 # nummo
 
-A new way to be funded.
+Aplicativo de Android para Nummo.
 
-## Getting Started
+## Sumário
 
-This project is a starting point for a Flutter application.
+- [Sobre](#Sobre)
+- [Solução](#Solução)
+- [Tecnologia](#Tecnologia)
+- [Testes](#Testes)
+- [Design](#Design)
 
-A few resources to get you started if this is your first Flutter project:
+## Sobre
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Nummo é um aplicativo que permite que empreendedores ou pessoas físicas façam requisições de empréstimo a outras pessoas físicas ou empresas, com taxas de juros compatíveis com o mercado. Tudo acontece virtualmente. Usuários e investidores usam o aplicativo para submeter e selecionar solicitações de empréstimo.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Este projeto foi desenvolvido para o [Hackaton Empreenda Getnet](https://www.hackathongetnet.com.br/)
+
+## Solução
+
+No cenário de COVID-19, o acesso a crédito tem se tornado um dos principais problemas de micro e pequeno empreendedores. Nummo ajuda a resolver esse problema aproximando investidores a pessoas que precisam de crédito de uma forma completamente digital. 
+
+O solicitante do empréstimo usa o sistema através de um cadastro que registra suas informações e do empréstimo solicitado. O sistema executa uma avaliação padronizada de risco, que é apresentada ao investidor no momento de selecionar títulos de dívidas a serem comprados. Tais títulos de dívidas são de curto prazo (< 5 anos), e o solicitante de empréstimo pode administrar suas requisições através de um dashboard voltado ao empréstimo.
+
+Investidores usam o sistema de forma parecida, realizando um cadastro prévio de investidor. Um investidor seleciona seus investimentos através de uma página padronizada, onde são apresentados os riscos e detalhes de cada solicitação de empréstimo. Após selecionados, o investidor confirma, e, a partir daí, pode administrar seus investimentos e visualizar rendimentos através de seu dashboard pessoal.
+
+Você pode saber mais a respeito clicando nos links abaixo:
+- [Vídeo Pitch](https://youtu.be/mJUE4fCOLpM)
+- [Slides Pitch](https://drive.google.com/file/d/11FhAWmN-9ml-2gR2oy6VvUKcAIAv5vw2/view?usp=sharing)
+- [Vídeo Demo](https://youtu.be/KXUbcEiWlnI)
+- [Site](https://nummo.imfast.io/nummo/index.html)
+- [Github do site](https://github.com/rafaeldrag/nummo)
+
+## Time
+
+- Heitor Sales
+- José Luciano
+- Juliana Vivacqua
+- Maira Manfro
+- Rafael Rodrigues
+
+## Tecnologia
+
+O desenvolvimento do aplicativo Android fez uso de Flutter e Dart, com interface visual projetada através do Figma.
+
+## Testes
+
+## Design
+
+[Nosso Site](https://nummo.imfast.io/nummo/index.html)

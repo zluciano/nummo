@@ -14,6 +14,8 @@ Aplicativo de Android para Nummo.
 
 Nummo é um aplicativo que permite que empreendedores ou pessoas físicas façam requisições de empréstimo a outras pessoas físicas ou empresas, com taxas de juros compatíveis com o mercado. Tudo acontece virtualmente. Usuários e investidores usam o aplicativo para submeter e selecionar solicitações de empréstimo.
 
+Este projeto foi desenvolvido para o [Hackaton Empreenda Getnet](https://www.hackathongetnet.com.br/)
+
 ## Solução
 
 No cenário de COVID-19, o acesso a crédito tem se tornado um dos principais problemas de micro e pequeno empreendedores. Nummo ajuda a resolver esse problema aproximando investidores a pessoas que precisam de crédito de uma forma completamente digital. 
@@ -28,6 +30,14 @@ Você pode saber mais a respeito clicando nos links abaixo:
 - [Vídeo Demo](https://youtu.be/KXUbcEiWlnI)
 - [Site](https://nummo.imfast.io/nummo/index.html)
 - [Github do site](https://github.com/rafaeldrag/nummo)
+
+## Time
+
+- Heitor Sales
+- José Luciano
+- Juliana Vivacqua
+- Maira Manfro
+- Rafael Rodrigues
 
 ## Tecnologia
 
